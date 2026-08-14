@@ -1,0 +1,24 @@
+.hde-estimate {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.35rem 0.75rem;
+	align-items: baseline;
+	margin: 1rem 0 1.25rem;
+	padding: 0.85rem 1rem;
+	border-left: 4px solid #1f5c63;
+	background:
+		linear-gradient(135deg, rgba(126, 184, 178, 0.18), rgba(247, 243, 236, 0.9)),
+		#f7f3ec;
+	color: #102a2e;
+	font-size: 0.95rem;
+	line-height: 1.4;
+}
+
+.hde-estimate__label {
+	font-weight: 700;
+	letter-spacing: 0.01em;
+}
+
+.hde-estimate__dates {
+	font-weight: 500;
+}
